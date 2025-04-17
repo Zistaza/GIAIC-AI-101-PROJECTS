@@ -7,14 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/18AfPxf-c_DFy0mHBaf9grw0NJOPyzHkM
 """
 
-
-
-"""# ***Python-Website-with-Streamlit***"""
-
 import streamlit as st
 from PIL import Image
 
-# Page config
+# Page config must be first
 st.set_page_config(
     page_title="My Portfolio",
     layout="centered",
